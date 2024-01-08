@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class RectangleTest{
     @Test
-    void testRectangleArea(){
+    void shouldReturnAreaWhenDataIsGiven(){
         int length = 2;
         int breadth = 4;
         int actual = 8;
